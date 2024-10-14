@@ -1,0 +1,33 @@
+{
+    "name": "ahmadrosid/laravel-anthropic",
+    "description": "Unofficial anthropic client library for laravel.",
+    "type": "library",
+    "version": "1.0.0", 
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "illuminate/support": "^9|^10|^11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ahmadrosid\\Laravel\\Anthropic\\": "src/Anthropic/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmadrosid",
+            "email": "alahmadrosid@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahmadrosid\\Laravel\\Anthropic\\AnthropicServiceProvider"
+            ],
+            "aliases": {
+                "AnthropicAI": "Ahmadrosid\\Laravel\\Anthropic\\AnthropicAI"
+            }
+        }
+    }
+}
