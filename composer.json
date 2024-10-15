@@ -2,7 +2,7 @@
     "name": "ahmadrosid/laravel-anthropic",
     "description": "Unofficial anthropic client library for laravel.",
     "type": "library",
-    "version": "1.0.0", 
+    "version": "1.0.1", 
     "minimum-stability": "stable",
     "require": {
         "guzzlehttp/guzzle": "^7.9",

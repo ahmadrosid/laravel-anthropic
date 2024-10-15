@@ -7,6 +7,7 @@ use Ahmadrosid\Laravel\Anthropic\Testing\ClientFake;
 
 /**
  * @method static \Ahmadrosid\Laravel\Anthropic\Resources\Chat chat()
+ * @method static \Ahmadrosid\Laravel\Anthropic\Resources\Model model()
  */
 class AnthropicAI extends Facade
 {
